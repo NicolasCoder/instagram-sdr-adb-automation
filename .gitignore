@@ -1,0 +1,43 @@
+# Credenciais e Variáveis de Ambiente Pessoais
+.env
+.env.local
+.env.*.local
+
+# Bancos de Dados SQLite e Listas de Leads Prospectados (NUNCA versionar dados reais!)
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+data/
+prospectados.txt
+fila_audios_pendentes.json
+
+# Logs, Dumps XML de Tela, Áudios Temporários e Prints de Debug
+logs/
+debug_frames/
+downloads/
+*.log
+*.xml
+*.wav
+*.mp3
+*.png
+*.jpg
+*.jpeg
+
+# Pesos pesados opcionais (baixados automaticamente por models/download_models.py)
+models/gender_net.caffemodel
+
+# Ambientes Virtuais Python e Cache
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Arquivos de Sistema / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

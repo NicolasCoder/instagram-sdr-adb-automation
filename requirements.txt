@@ -1,0 +1,13 @@
+uiautomator2>=3.2.0
+adbutils>=2.7.0
+python-dotenv>=1.0.1
+requests>=2.31.0
+opencv-python>=4.9.0.80
+numpy>=1.26.0
+mss>=9.0.1
+pygetwindow>=0.0.9
+ultralytics>=8.3.0
+faster-whisper>=1.0.3
+yt-dlp>=2024.8.6
+google-genai>=0.3.0
+openai-whisper>=20231117
